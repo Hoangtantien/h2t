@@ -1,0 +1,51 @@
+.img{
+    width: 80%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+ul li{
+    list-style-type: none;
+}
+.icon ul li{
+    display: inline;
+    line-height: 50px;
+}
+.logo{
+    float: left;
+}
+.clearfix{
+    clear:both;
+    float: none;
+}
+.menu:hover{
+    color: orange;
+    
+}
+.menu li{
+    display: inline-block;
+    padding:0 10px;
+    margin-top: 15px;
+    
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+    background-color: white;
+    color:black;
+}
+.menu-1,.menu-2,.menu-3,.menu-4{
+    position: relative;
+}
+.menu-1:hover>.sub-menu,.menu-2:hover>.sub-menu,
+.menu-3:hover>.sub-menu,.menu-4:hover>.sub-menu{
+    display: block;
+}
+li:hover .sub-menu{
+    background-color: white;
+    color:black
+}
