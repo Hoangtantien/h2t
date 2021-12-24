@@ -33,7 +33,7 @@ a{
 .sub-menu1,.sub-menu2,.sub-menu3,.sub-menu4,.sub-menu5{
     display: none;
     position: absolute;
-    background-color: blue;
+   
 }
 .sub-menu1>li,.sub-menu2>li,.sub-menu3>li,.sub-menu4>li,.sub-menu5>li{
     padding: 10px 0px 10px 15px;
